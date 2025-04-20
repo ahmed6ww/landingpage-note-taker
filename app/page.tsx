@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Mic, Check, ListChecks, Brain, Calendar, Clock } from "lucide-react";
 import { WaitlistForm } from "@/components/waitlist-form";
 import { Button } from "@/components/ui/button";
@@ -257,7 +256,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Coming Soon</h2>
             <p className="text-xl text-muted-foreground">
-              We're constantly improving Voice Planner with new features.
+              We&apos;re constantly improving Voice Planner with new features.
             </p>
           </div>
           

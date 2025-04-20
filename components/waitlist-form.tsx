@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
+
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -63,9 +63,9 @@ export function WaitlistForm() {
     <div className="w-full max-w-md">
       {isSuccess ? (
         <div className="p-6 bg-green-50 border border-green-200 rounded-lg text-center">
-          <h3 className="text-lg font-medium text-green-900">You're on the list!</h3>
+          <h3 className="text-lg font-medium text-green-900">You&apos;re on the list!</h3>
           <p className="mt-2 text-sm text-green-700">
-            Thank you for joining our waitlist. We'll notify you when Voice Planner is ready!
+            Thank you for joining our waitlist. We&apos;ll notify you when Voice Planner is ready!
           </p>
         </div>
       ) : (
